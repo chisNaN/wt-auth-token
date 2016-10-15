@@ -2,7 +2,7 @@
 
 >Small repos to show how it is swift and easy to deploy a JSON web token authentication with the [Webtask.io](https://webtask.io/) FaaS
 
-:bulb: Free functions expires after 1 month
+:bulb: Free functions expire after 1 month
 
 getToken.js
 
