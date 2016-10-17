@@ -28,7 +28,7 @@ const getToken = {
     }
 };
 
-fetch(getToken.url, getToken.headers).then(r => r.text())
+fetch(getToken.url, getToken.headers).then(r => r.json())
 .then(token => console.log(token)).catch(e => console.warn(e));
 ```
 
