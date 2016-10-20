@@ -67,6 +67,6 @@ const checkToken = {
     }
 };
 
-fetch(checkToken.url, checkToken.headers).then(r => r.text())
+fetch(checkToken.url, checkToken.headers).then(r => r.json())
 .then(loginStatus => console.log(loginStatus)).catch(e => console.warn(e));
 ```
