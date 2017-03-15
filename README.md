@@ -1,4 +1,4 @@
-#Webtask token authentication
+# Webtask token authentication
 
 >Small repo to show how it is swift and easy to deploy a JSON web token authentication with the [Webtask.io](https://webtask.io/) FaaS
 
