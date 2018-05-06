@@ -17,7 +17,7 @@ Then retrieve with `fetch()`
 
 ```js
 const getToken = {
-    url: 'https://wt-artgreg-outlook-fr-0.run.webtask.io/getToken?webtask_no_cache=1',
+    url: 'url_of_your_webtask',
     headers: {
         method: 'POST',
         headers: {
@@ -58,7 +58,7 @@ Then check with `fetch()`
 
 ```js
 const checkToken = {
-    url: 'https://wt-artgreg-outlook-fr-0.run.webtask.io/checkToken?webtask_no_cache=1',
+    url: 'url_of_your_webtask',
     headers: {
         method: 'GET',
         headers: {
